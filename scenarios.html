@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Choose Scenario</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+
+<body class="page">
+
+<h1>Select Your Scenario</h1>
+
+<div class="cards">
+
+  <div class="card" onclick="goToChat('intro')">
+    <h2>Introduction</h2>
+    <p>Meet someone new</p>
+  </div>
+
+  <div class="card" onclick="window.location.href='chat.html?type=interview'">
+    <h2>Job Interview</h2>
+    <p>Talk professionally</p>
+  </div>
+
+  <div class="card" onclick="goToChat('teacher')">
+    <h2>Teacher</h2>
+    <p>Ask for help</p>
+  </div>
+
+  <div class="card" onclick="goToChat('conflict')">
+    <h2>Conflict</h2>
+    <p>Handle disagreement</p>
+  </div>
+
+</div>
+
+</body>
+</html>

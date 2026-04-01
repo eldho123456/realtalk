@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chat</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+
+<body class="page">
+
+<h2 id="chatTitle"></h2>
+
+<div class="chat-box" id="chatBox"></div>
+
+<div class="input-area">
+  <input type="text" id="userInput" placeholder="Type your message...">
+  <button onclick="sendMessage()">Send</button>
+  <button onclick="startListening()" style="background:#22c55e;color:white;">🎤</button>
+  <button onclick="endChat()" style="background:red;color:white;">Stop</button>
+</div>
+
+<div id="feedback" class="feedback"></div>
+
+</body>
+</html>
